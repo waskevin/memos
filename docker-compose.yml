@@ -1,0 +1,27 @@
+# TOS 7 Docker application - Memos
+# Rules: Docker Hub image with a LOCKED version tag; non-root user;
+#        no privileged mode, no network_mode: host; data persisted via bind mounts.
+version: "3.8"
+
+services:
+  memos:
+    image: neosmemo/memos:0.31
+    container_name: memos
+    restart: unless-stopped
+    user: "1000:1000"
+    ports:
+      - "10001:5230"
+    volumes:
+      - ./data:/var/opt/memos
+    environment:
+      - TZ=Asia/Shanghai
+    healthcheck:
+      test: ["CMD-SHELL", "(command -v curl >/dev/null && curl -fsS http://localhost:5230/) || (command -v wget >/dev/null && wget -q -O /dev/null http://localhost:5230/) || exit 1"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+x-app-meta:
+  web:
+    port: 10001
+    protocol: http
