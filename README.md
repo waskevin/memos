@@ -33,7 +33,6 @@ version: "3.8"
 services:
   memos:
     image: neosmemo/memos:0.31
-    container_name: memos
     restart: unless-stopped
     user: "1000:1000"
     ports:
@@ -81,7 +80,7 @@ sha256sum memos.tar.gz > memos.tar.gz.sha256
 
 The package is published as a Release asset (the TOS Developer Platform downloads it from the Release, not from the repository root):
 
-- Tag: `1.0.1`
+- Tag: `1.0.2`
 - Asset: `memos.tar.gz`
 - Checksum: `memos.tar.gz.sha256`
 
@@ -89,6 +88,7 @@ The package is published as a Release asset (the TOS Developer Platform download
 
 - Image source: Docker Hub only (`neosmemo/memos`), version tag pinned, never `:latest`.
 - Runs as a non-root user (`user: "1000:1000"`); no `privileged`, no `network_mode: host`.
+- `container_name` is intentionally **omitted**: Compose then derives a globally unique name (`<project>_<service>_1`), so the application never fails to install because the device already runs a container called `memos`. The TOS platform only appends a numeric suffix to a conflicting *project* name — it does not rewrite `container_name` — so hard-coding a container name is a portability risk.
 - The icon in this repository is original placeholder artwork created for this package; it is **not** the upstream project logo, to avoid trademark issues.
 - This repository contains packaging metadata only. The application itself is developed by the Memos project and distributed under its own license (MIT). All credit belongs to the upstream authors.
 - No credentials, tokens or secrets are stored in this repository.
