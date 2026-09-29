@@ -1,0 +1,99 @@
+# Multilingual file for TOS 7 Docker application. All 14 languages are REQUIRED.
+
+[en-us]
+name = "Memos"
+auth = "waskevin"
+descript = "Memos - 便签 / 卡片笔记. Self-hosted application running in a Docker container on your TNAS."
+release_note = "1. Initial release."
+important = "DockerEngine must be installed and enabled from the TOS App Center. Docker image source: Docker Hub."
+
+[zh-cn]
+name = "Memos"
+auth = "waskevin"
+descript = "Memos - 便签 / 卡片笔记. Self-hosted application running in a Docker container on your TNAS."
+release_note = "1. Initial release."
+important = "DockerEngine must be installed and enabled from the TOS App Center. Docker image source: Docker Hub."
+
+[zh-hk]
+name = "Memos"
+auth = "waskevin"
+descript = "Memos - 便签 / 卡片笔记. Self-hosted application running in a Docker container on your TNAS."
+release_note = "1. Initial release."
+important = "DockerEngine must be installed and enabled from the TOS App Center. Docker image source: Docker Hub."
+
+[fr-fr]
+name = "Memos"
+auth = "waskevin"
+descript = "Memos - 便签 / 卡片笔记. Self-hosted application running in a Docker container on your TNAS."
+release_note = "1. Initial release."
+important = "DockerEngine must be installed and enabled from the TOS App Center. Docker image source: Docker Hub."
+
+[de-de]
+name = "Memos"
+auth = "waskevin"
+descript = "Memos - 便签 / 卡片笔记. Self-hosted application running in a Docker container on your TNAS."
+release_note = "1. Initial release."
+important = "DockerEngine must be installed and enabled from the TOS App Center. Docker image source: Docker Hub."
+
+[it-it]
+name = "Memos"
+auth = "waskevin"
+descript = "Memos - 便签 / 卡片笔记. Self-hosted application running in a Docker container on your TNAS."
+release_note = "1. Initial release."
+important = "DockerEngine must be installed and enabled from the TOS App Center. Docker image source: Docker Hub."
+
+[es-es]
+name = "Memos"
+auth = "waskevin"
+descript = "Memos - 便签 / 卡片笔记. Self-hosted application running in a Docker container on your TNAS."
+release_note = "1. Initial release."
+important = "DockerEngine must be installed and enabled from the TOS App Center. Docker image source: Docker Hub."
+
+[hu-hu]
+name = "Memos"
+auth = "waskevin"
+descript = "Memos - 便签 / 卡片笔记. Self-hosted application running in a Docker container on your TNAS."
+release_note = "1. Initial release."
+important = "DockerEngine must be installed and enabled from the TOS App Center. Docker image source: Docker Hub."
+
+[ja-jp]
+name = "Memos"
+auth = "waskevin"
+descript = "Memos - 便签 / 卡片笔记. Self-hosted application running in a Docker container on your TNAS."
+release_note = "1. Initial release."
+important = "DockerEngine must be installed and enabled from the TOS App Center. Docker image source: Docker Hub."
+
+[ko-kr]
+name = "Memos"
+auth = "waskevin"
+descript = "Memos - 便签 / 卡片笔记. Self-hosted application running in a Docker container on your TNAS."
+release_note = "1. Initial release."
+important = "DockerEngine must be installed and enabled from the TOS App Center. Docker image source: Docker Hub."
+
+[pl-pl]
+name = "Memos"
+auth = "waskevin"
+descript = "Memos - 便签 / 卡片笔记. Self-hosted application running in a Docker container on your TNAS."
+release_note = "1. Initial release."
+important = "DockerEngine must be installed and enabled from the TOS App Center. Docker image source: Docker Hub."
+
+[ru-ru]
+name = "Memos"
+auth = "waskevin"
+descript = "Memos - 便签 / 卡片笔记. Self-hosted application running in a Docker container on your TNAS."
+release_note = "1. Initial release."
+important = "DockerEngine must be installed and enabled from the TOS App Center. Docker image source: Docker Hub."
+
+[tr-tr]
+name = "Memos"
+auth = "waskevin"
+descript = "Memos - 便签 / 卡片笔记. Self-hosted application running in a Docker container on your TNAS."
+release_note = "1. Initial release."
+important = "DockerEngine must be installed and enabled from the TOS App Center. Docker image source: Docker Hub."
+
+[pt-pt]
+name = "Memos"
+auth = "waskevin"
+descript = "Memos - 便签 / 卡片笔记. Self-hosted application running in a Docker container on your TNAS."
+release_note = "1. Initial release."
+important = "DockerEngine must be installed and enabled from the TOS App Center. Docker image source: Docker Hub."
