@@ -1,12 +1,14 @@
 # TOS 7 Docker application - Memos
 # Rules: Docker Hub image with a LOCKED version tag; non-root user;
 #        no privileged mode, no network_mode: host; data persisted via bind mounts.
+# NOTE: container_name is intentionally omitted so that Compose derives a globally
+#       unique name (<project>_<service>_1) and never collides with a container the
+#       user already runs under the same name.
 version: "3.8"
 
 services:
   memos:
     image: neosmemo/memos:0.31
-    container_name: memos
     restart: unless-stopped
     user: "1000:1000"
     ports:
