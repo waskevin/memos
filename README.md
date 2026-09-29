@@ -80,7 +80,7 @@ sha256sum memos.tar.gz > memos.tar.gz.sha256
 
 The package is published as a Release asset (the TOS Developer Platform downloads it from the Release, not from the repository root):
 
-- Tag: `1.0.2`
+- Tag: `1.0.3`
 - Asset: `memos.tar.gz`
 - Checksum: `memos.tar.gz.sha256`
 
