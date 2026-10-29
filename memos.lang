@@ -4,96 +4,96 @@
 name = "Memos"
 auth = "waskevin"
 descript = "Memos is a lightweight, self-hosted memo hub. Capture notes in Markdown with tags and full-text search. All data stays on your TNAS in a single SQLite file."
-release_note = "1. Initial release."
-important = "DockerEngine must be installed and enabled from the TOS App Center. Docker image source: Docker Hub."
+release_note = "1.0.4: added licence/attribution notices and a privacy policy."
+important = "DockerEngine must be installed and enabled from the TOS App Center. Docker image source: Docker Hub. License: MIT. Source code, notices and privacy policy: https://github.com/waskevin/memos"
 
 [zh-cn]
 name = "Memos"
 auth = "waskevin"
 descript = "Memos 是一款轻量级自托管卡片笔记应用，支持 Markdown、标签与全文搜索，所有数据以单个 SQLite 文件保存在你的 TNAS 本地。"
-release_note = "1. Initial release."
-important = "DockerEngine must be installed and enabled from the TOS App Center. Docker image source: Docker Hub."
+release_note = "1.0.4：补充许可证/版权声明与隐私政策，compose 改用平台绝对数据路径。"
+important = "DockerEngine must be installed and enabled from the TOS App Center. Docker image source: Docker Hub. 许可证：MIT。源码、版权声明与隐私政策：https://github.com/waskevin/memos"
 
 [zh-hk]
 name = "Memos"
 auth = "waskevin"
 descript = "Memos 是一款轻量级自托管卡片笔记应用，支持 Markdown、标签与全文搜索，所有数据以单个 SQLite 文件保存在你的 TNAS 本地。"
-release_note = "1. Initial release."
-important = "DockerEngine must be installed and enabled from the TOS App Center. Docker image source: Docker Hub."
+release_note = "1.0.4：补充许可证/版权声明与隐私政策，compose 改用平台绝对数据路径。"
+important = "DockerEngine must be installed and enabled from the TOS App Center. Docker image source: Docker Hub. 许可证：MIT。源码、版权声明与隐私政策：https://github.com/waskevin/memos"
 
 [fr-fr]
 name = "Memos"
 auth = "waskevin"
 descript = "Memos is a lightweight, self-hosted memo hub. Capture notes in Markdown with tags and full-text search. All data stays on your TNAS in a single SQLite file."
-release_note = "1. Initial release."
-important = "DockerEngine must be installed and enabled from the TOS App Center. Docker image source: Docker Hub."
+release_note = "1.0.4: added licence/attribution notices and a privacy policy."
+important = "DockerEngine must be installed and enabled from the TOS App Center. Docker image source: Docker Hub. License: MIT. Source code, notices and privacy policy: https://github.com/waskevin/memos"
 
 [de-de]
 name = "Memos"
 auth = "waskevin"
 descript = "Memos is a lightweight, self-hosted memo hub. Capture notes in Markdown with tags and full-text search. All data stays on your TNAS in a single SQLite file."
-release_note = "1. Initial release."
-important = "DockerEngine must be installed and enabled from the TOS App Center. Docker image source: Docker Hub."
+release_note = "1.0.4: added licence/attribution notices and a privacy policy."
+important = "DockerEngine must be installed and enabled from the TOS App Center. Docker image source: Docker Hub. License: MIT. Source code, notices and privacy policy: https://github.com/waskevin/memos"
 
 [it-it]
 name = "Memos"
 auth = "waskevin"
 descript = "Memos is a lightweight, self-hosted memo hub. Capture notes in Markdown with tags and full-text search. All data stays on your TNAS in a single SQLite file."
-release_note = "1. Initial release."
-important = "DockerEngine must be installed and enabled from the TOS App Center. Docker image source: Docker Hub."
+release_note = "1.0.4: added licence/attribution notices and a privacy policy."
+important = "DockerEngine must be installed and enabled from the TOS App Center. Docker image source: Docker Hub. License: MIT. Source code, notices and privacy policy: https://github.com/waskevin/memos"
 
 [es-es]
 name = "Memos"
 auth = "waskevin"
 descript = "Memos is a lightweight, self-hosted memo hub. Capture notes in Markdown with tags and full-text search. All data stays on your TNAS in a single SQLite file."
-release_note = "1. Initial release."
-important = "DockerEngine must be installed and enabled from the TOS App Center. Docker image source: Docker Hub."
+release_note = "1.0.4: added licence/attribution notices and a privacy policy."
+important = "DockerEngine must be installed and enabled from the TOS App Center. Docker image source: Docker Hub. License: MIT. Source code, notices and privacy policy: https://github.com/waskevin/memos"
 
 [hu-hu]
 name = "Memos"
 auth = "waskevin"
 descript = "Memos is a lightweight, self-hosted memo hub. Capture notes in Markdown with tags and full-text search. All data stays on your TNAS in a single SQLite file."
-release_note = "1. Initial release."
-important = "DockerEngine must be installed and enabled from the TOS App Center. Docker image source: Docker Hub."
+release_note = "1.0.4: added licence/attribution notices and a privacy policy."
+important = "DockerEngine must be installed and enabled from the TOS App Center. Docker image source: Docker Hub. License: MIT. Source code, notices and privacy policy: https://github.com/waskevin/memos"
 
 [ja-jp]
 name = "Memos"
 auth = "waskevin"
 descript = "Memos is a lightweight, self-hosted memo hub. Capture notes in Markdown with tags and full-text search. All data stays on your TNAS in a single SQLite file."
-release_note = "1. Initial release."
-important = "DockerEngine must be installed and enabled from the TOS App Center. Docker image source: Docker Hub."
+release_note = "1.0.4: added licence/attribution notices and a privacy policy."
+important = "DockerEngine must be installed and enabled from the TOS App Center. Docker image source: Docker Hub. License: MIT. Source code, notices and privacy policy: https://github.com/waskevin/memos"
 
 [ko-kr]
 name = "Memos"
 auth = "waskevin"
 descript = "Memos is a lightweight, self-hosted memo hub. Capture notes in Markdown with tags and full-text search. All data stays on your TNAS in a single SQLite file."
-release_note = "1. Initial release."
-important = "DockerEngine must be installed and enabled from the TOS App Center. Docker image source: Docker Hub."
+release_note = "1.0.4: added licence/attribution notices and a privacy policy."
+important = "DockerEngine must be installed and enabled from the TOS App Center. Docker image source: Docker Hub. License: MIT. Source code, notices and privacy policy: https://github.com/waskevin/memos"
 
 [pl-pl]
 name = "Memos"
 auth = "waskevin"
 descript = "Memos is a lightweight, self-hosted memo hub. Capture notes in Markdown with tags and full-text search. All data stays on your TNAS in a single SQLite file."
-release_note = "1. Initial release."
-important = "DockerEngine must be installed and enabled from the TOS App Center. Docker image source: Docker Hub."
+release_note = "1.0.4: added licence/attribution notices and a privacy policy."
+important = "DockerEngine must be installed and enabled from the TOS App Center. Docker image source: Docker Hub. License: MIT. Source code, notices and privacy policy: https://github.com/waskevin/memos"
 
 [ru-ru]
 name = "Memos"
 auth = "waskevin"
 descript = "Memos is a lightweight, self-hosted memo hub. Capture notes in Markdown with tags and full-text search. All data stays on your TNAS in a single SQLite file."
-release_note = "1. Initial release."
-important = "DockerEngine must be installed and enabled from the TOS App Center. Docker image source: Docker Hub."
+release_note = "1.0.4: added licence/attribution notices and a privacy policy."
+important = "DockerEngine must be installed and enabled from the TOS App Center. Docker image source: Docker Hub. License: MIT. Source code, notices and privacy policy: https://github.com/waskevin/memos"
 
 [tr-tr]
 name = "Memos"
 auth = "waskevin"
 descript = "Memos is a lightweight, self-hosted memo hub. Capture notes in Markdown with tags and full-text search. All data stays on your TNAS in a single SQLite file."
-release_note = "1. Initial release."
-important = "DockerEngine must be installed and enabled from the TOS App Center. Docker image source: Docker Hub."
+release_note = "1.0.4: added licence/attribution notices and a privacy policy."
+important = "DockerEngine must be installed and enabled from the TOS App Center. Docker image source: Docker Hub. License: MIT. Source code, notices and privacy policy: https://github.com/waskevin/memos"
 
 [pt-pt]
 name = "Memos"
 auth = "waskevin"
 descript = "Memos is a lightweight, self-hosted memo hub. Capture notes in Markdown with tags and full-text search. All data stays on your TNAS in a single SQLite file."
-release_note = "1. Initial release."
-important = "DockerEngine must be installed and enabled from the TOS App Center. Docker image source: Docker Hub."
+release_note = "1.0.4: added licence/attribution notices and a privacy policy."
+important = "DockerEngine must be installed and enabled from the TOS App Center. Docker image source: Docker Hub. License: MIT. Source code, notices and privacy policy: https://github.com/waskevin/memos"
