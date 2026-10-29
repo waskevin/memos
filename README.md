@@ -93,6 +93,41 @@ The package is published as a Release asset (the TOS Developer Platform download
 - This repository contains packaging metadata only. The application itself is developed by the Memos project and distributed under its own license (MIT). All credit belongs to the upstream authors.
 - No credentials, tokens or secrets are stored in this repository.
 
+## License, copyright and source / 许可证、版权与源码
+
+- **Licence of the application**: `MIT`.  The full licence text is in
+  [`LICENSE`](LICENSE).
+- **Copyright**: the application is copyright the Memos project and its
+  contributors; the packaging in this repository is copyright (c) 2026
+  waskevin.  See [`NOTICE`](NOTICE) for the full attribution.
+- **Source code**: <https://github.com/usememos/memos>
+- **What this repository contains**: packaging metadata only
+  (`config.ini`, `memos.lang`, `memos.svg`, `docker-compose.yml` and
+  documentation).  It embeds no application source code and no binaries; the
+  image is pulled from Docker Hub on the user's device.
+
+## Privacy / 隐私
+
+- Full policy: [`PRIVACY.md`](PRIVACY.md)
+  (<https://github.com/waskevin/memos/blob/main/PRIVACY.md>), also reachable
+  from App Center through the `help` link in `config.ini`.
+- All application data stays on the device, under
+  `/Volume<N>/DockerAppData/memos/data`.
+- **No telemetry, no analytics, no upload to the publisher.**  The only
+  outbound request made by the package is the one-time image pull from Docker
+  Hub at install time.
+- The application has no built-in outbound feature enabled by this package.
+
+## Third-party services and data destinations / 第三方服务与数据流向
+
+- **Default configuration: none.**  The package configures no external
+  endpoint, no account, no analytics service and no cloud storage.
+- **Install/update**: the TOS platform pulls `neosmemo/memos:0.31` from Docker Hub
+  (`hub.docker.com`, Docker, Inc.) - your IP address and the image name are
+  visible to that registry.
+- **Runtime**: the container serves plain HTTP on LAN port `10001` and makes
+  no other outbound connection by default.
+
 ## Links
 
 - Upstream project: https://github.com/usememos/memos
