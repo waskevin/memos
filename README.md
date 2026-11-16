@@ -32,7 +32,7 @@ version: "3.8"
 
 services:
   memos:
-    image: neosmemo/memos:0.31
+    image: neosmemo/memos:26.11.1
     restart: unless-stopped
     user: "1000:1000"
     ports:
@@ -122,7 +122,7 @@ The package is published as a Release asset (the TOS Developer Platform download
 
 - **Default configuration: none.**  The package configures no external
   endpoint, no account, no analytics service and no cloud storage.
-- **Install/update**: the TOS platform pulls `neosmemo/memos:0.31` from Docker Hub
+- **Install/update**: the TOS platform pulls `neosmemo/memos:26.11.1` from Docker Hub
   (`hub.docker.com`, Docker, Inc.) - your IP address and the image name are
   visible to that registry.
 - **Runtime**: the container serves plain HTTP on LAN port `10001` and makes
